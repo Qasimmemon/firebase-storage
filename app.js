@@ -35,10 +35,11 @@ const storage = getStorage(app);
 const carsCollection = collection(db, "cars");
 
 const carImgInput = document.getElementById("car_img");
-const submitBtn = document.getElementById("submit");
+const submitBtn = document.getElementById("save_file");
 const showResult = document.getElementById("show_Result");
+const submit = document.getElementById("submit");
 
-submitBtn.addEventListener("click", async () => {
+submit.addEventListener("click", async () => {
   const firstName = document.getElementById("first_name").value;
   const lastName = document.getElementById("last_name").value;
   const contact = document.getElementById("contact").value;
