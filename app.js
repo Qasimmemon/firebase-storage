@@ -110,22 +110,3 @@ function showProfile(firstName, lastName, contact, email, message, gender, url) 
   showResult.innerHTML = profileHTML;
   
 }
-
-
-// async function addData(a, b,c,d,e,f) {
-//   try {
-//     const userCollection = collection(db, "allusers");
-//     const userRef = await addDoc(userCollection, {
-//       firstName:a,
-//       lastName:b,
-//       Email: c,
-//       Contact: d,
-//       Message:e,
-//       Gender:f,
-//       created_at: new Date().toDateString(),
-//     });
-//     console.log("Document written with ID: ", userRef.id);
-//   } catch (e) {
-//     alert("Error adding document: ", e);
-//   }
-// }
